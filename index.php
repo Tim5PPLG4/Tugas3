@@ -9,8 +9,8 @@
 <h1>Membuat Login Multi User Level Dengan PHP dan MySQL <br/> www.malangoding.com</h1>
 
 <?php 
-if(isset($_GET ['pesan'])){ 
-    if($_GET['pesan'=="gagal"){
+if(isset($_GET['pesan'])){ 
+    if($_GET['pesan']=="gagal"){
         echo "<div class-'alert' username dan Password tidak sesuai !</div>";
     }
 }
@@ -23,7 +23,7 @@ if(isset($_GET ['pesan'])){
           <input type="text" name="username" class="form_login" placeholder="Username .."required="required">
 
 <label>Password</label>
-<input type="password" name="password" class="form_login" placeholder="Password .." required="requir
+<input type="password" name="password" class="form_login" placeholder="Password .." required="required">
 
 <input type="submit" class="tombol_login" value="LOGIN">
 
@@ -36,6 +36,7 @@ if(isset($_GET ['pesan'])){
  
 
 </div>
+
 
 
 </body>
