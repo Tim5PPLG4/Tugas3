@@ -5,6 +5,6 @@ mysqli_connect("localhost","root","",
  
 // check connection
 if (mysqli_connect_errno()){
-   echo "koneksi data base gagal : " . mysql_connect_error();
+   echo "koneksi database gagal : " . mysqli_connect_error();
 }
  ?>
