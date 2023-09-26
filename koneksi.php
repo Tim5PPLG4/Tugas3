@@ -1,10 +1,9 @@
 <?php 
-$koneksi =
-mysqli_connect("localhost","root","",
-"db_website");
+$koneksi = mysqli_connect("localhost","root","","db_website");
  
-// check connection
+// Check connection
 if (mysqli_connect_errno()){
-   echo "koneksi database gagal : " . mysqli_connect_error();
+	echo "Koneksi database gagal : " . mysqli_connect_error();
 }
- ?>
+ 
+?>
